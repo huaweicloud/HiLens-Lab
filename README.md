@@ -4,7 +4,7 @@
 
 **`Documentation`** |
 ------------------- |
-[![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://support.huaweicloud.com/devg-hilens/hilens_05_0002.html/) |
+[![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://support.huaweicloud.com/devg-hilens/hilens_05_0002.html) |
 
 [华为HiLens](https://www.huaweicloud.com/product/hilens.html)为端云协同多模态AI开发应用平台，面向AI应用开发者，软硬件厂商以及普通用户，提供简单易用的开发框架、开箱即用的开发环境、丰富的AI技能市场和云上管理平台，对接多种端侧计算设备，支持视觉及听觉AI应用开发、AI应用在线部署、海量设备管理等丰富功能。
 
