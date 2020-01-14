@@ -20,6 +20,8 @@ A quick note:
 <img src="pics/ros_1.png"/>
 </div>
 
+[点击下载镜像文件](https://hilens-guide-cn-north-4.obs.cn-north-4.myhuaweicloud.com/ros_melodic_builder_exported.tar.gz)
+
 下载docker 镜像文件，这个tar.gz 文件需要用docker import 来加载，然后进入之后，如图所示：
 
 <div align="left">
