@@ -18,10 +18,10 @@
 
 <img src="docs/pics/qr_code.png" alt="qr_code" width="256"/>
 
-## 华为HiLens外观
+## 华为HiLens平台
 
 <div align="center">
-<img src="docs/pics/hilens_size.png"/>
+<img src="docs/pics/hilens_platform.jpg"/>
 </div>
 
 ## Framework 
@@ -31,6 +31,13 @@
 <div align="center">
 <img src="docs/pics/hilens_str.png"/>
 </div>
+
+## HiLens Kit
+
+<div align="center">
+<img src="docs/pics/hilens_size.png"/>
+</div>
+
 
 ## Resources
 
