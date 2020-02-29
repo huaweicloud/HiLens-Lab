@@ -1,6 +1,6 @@
 ## HiLens 模型支持列表
 
-HiLens 目前支持DDK893, DDK893支持能够转换的模型算子列表，可用在HiLens的文档网站进行查询，所有支持的算子创建的模型，都可用在ModelArts 或者 HiLens平台进行模型在线转换。
+HiLens 目前支持DDK893, DDK893支持能够转换的模型算子列表，可在HiLens的文档网站进行查询，所有支持的算子创建的模型，都可用在ModelArts 或者 HiLens平台进行模型在线转换。
 
 
 Tensorflow 模型：
