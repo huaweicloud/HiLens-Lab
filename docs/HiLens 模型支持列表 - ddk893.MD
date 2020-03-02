@@ -15,7 +15,7 @@ Tensorflow 模型：
 ## Tensorflow 模型支持列表
 
 | 模型 | 输入图像大小 |	是否支持 |	模型转换前大小(MB) |	模型转换后大小(MB) |
-| --- | --- | --- | --- | --- | 
+| :---: | :---: | --- | --- | --- | 
 | Alexnet |	224*224 | 是 | 176 | 88.3 |
 |InceptionV1 | 	224*224 | 是 |	21.4 |	11 |
 | InceptionV3 |	224*224 | 是 |	83.1 |	41.9 |
@@ -35,7 +35,7 @@ Tensorflow 模型：
 
 
 | 模型 | 输入图像大小 |是否支持 |	模型转换前大小(MB) |	模型转换后大小(MB) |
-| --- | --- | --- | --- | --- | 
+| :---: | :---: | --- | --- | --- | 
 | Alexnet |	227*227 |	是 |	232	| 119 |
 | InceptionV3 |	395*395 |	是 |	91.1 |	45.8 |
 | InceptionV4 |	299*299 |	是 |	163 |	81.9 |
@@ -50,7 +50,7 @@ Tensorflow 模型：
 ## 可转换算法参考 
 
 | 算法 | 框架 | 功能 | 步骤 | 描述 | 网址 |
-| --- | :---: | :---: | --- | --- | --- | 
+| :---: | :---: | :---: | --- | --- | --- | 
 | face_landmarks | Caffe | 68个人脸关键点检测 | 1. github页面下载protxt和caffemodel，上传到OBS 2. ModelArts或者HiLens模型转换页面进行转换|  | https://github.com/lsy17096535/face-landmark |
 | openpose | Keras/TensorFlow | 18个人体关键点检测 | 1. github页面下载作者训练好的Keras模型 2. 转换为TensorFlow模型，输出节点是heatmap和pafmap，不做resize，上传到OBS 3. ModelArts或者HiLens模型转换页面进行转换 | 转换为TensorFlow模型时stage数量和输入大小也可以缩小一些，防止模型太大、运行较慢 | https://github.com/kevinlin311tw/keras-openpose-reproduce |
 | cpm | TensorFlow | 21个手部关键点检测 | 1. github页面下载作者训练好的TensorFlow模型，上传到OBS 2. ModelArts或者HiLens模型转换页面进行转换 | 模型的stage数量和输入大小可以缩小一些，防止模型太大、运行较慢 | https://github.com/timctho/convolutional-pose-machines-tensorflow |
