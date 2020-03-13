@@ -48,7 +48,7 @@
 *   [华为HiLens 快速入门](https://support.huaweicloud.com/qs-hilens/hilens_04_0002.html)
 *   [华为HiLens帮助文档](https://support.huaweicloud.com/productdesc-hilens/hilens_01_0001.html)
 *   [华为HiLens视频课程](https://education.huaweicloud.com:8443/courses/course-v1:HuaweiX+CBUCNXE034+Self-paced/about?isAuth=0&cfrom=hwc)
-*   [HiLens Kit硬件参数](https://support.huawei.com/enterprise/zh/ai-computing-platform/a200-3000hilens-pid-250700826)
+*   [华为云AI开发者社区](https://developer.huaweicloud.com/resource/ai.html)
 *   [华为HiLens FAQ](https://support.huaweicloud.com/hilens_faq/HiLens_03_0001.html)
 *   [OpenEuler](https://openeuler.org/zh/)
 *   [华为开源镜像](https://mirrors.huaweicloud.com/euler/2.8/os/aarch64/ )
