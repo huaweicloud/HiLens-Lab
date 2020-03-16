@@ -55,7 +55,5 @@ Tensorflow 模型：
 | face_landmarks | Tensorflow | 68个人脸关键点检测 | <br/>1. github页面下载作者训练好的TensorFlow模型，上传到OBS </br>  2. ModelArts或者HiLens模型转换页面进行转换|  | https://github.com/yinguobing/head-pose-estimation |
 | openpose | Keras/TensorFlow | 18个人体关键点检测 | <br/>1. github页面下载作者训练好的Keras模型 </br>2. 转换为TensorFlow模型，输出节点是heatmap和pafmap，不做resize，上传到OBS <br/> 3. ModelArts或者HiLens模型转换页面进行转换 | 转换为TensorFlow模型时stage数量和输入大小也可以缩小一些，防止模型太大、运行较慢 | https://github.com/kevinlin311tw/keras-openpose-reproduce |
 | cpm | TensorFlow | 21个手部关键点检测 | 1. github页面下载作者训练好的TensorFlow模型，上传到OBS 2. ModelArts或者HiLens模型转换页面进行转换 | 模型的stage数量和输入大小可以缩小一些，防止模型太大、运行较慢 | https://github.com/timctho/convolutional-pose-machines-tensorflow | 
-| yolo_v3 | TensorFlow | 物体检测 | <br/> 1. 训练模型，或者github页面下载作者训练好的TensorFlow checkpoint模型 <br/>
-2. 转换为frozen pb模型，输出节点设为三个feature map，上传到OBS<br/>
-3. ModelArts或者HiLens模型转换页面进行转换<br/> | 暂不支持Leaky_relu算子，需要替换为relu算子 | https://github.com/wizyoung/YOLOv3_TensorFlow|
+| yolo_v3 | TensorFlow | 物体检测 | <br/> 1. 训练模型，或者github页面下载作者训练好的TensorFlow checkpoint模型 </br> 2. 转换为frozen pb模型，输出节点设为三个feature map，上传到OBS <br/> 3. ModelArts或者HiLens模型转换页面进行转换<br/> | 暂不支持Leaky_relu算子，需要替换为relu算子 | https://github.com/wizyoung/YOLOv3_TensorFlow|
 
