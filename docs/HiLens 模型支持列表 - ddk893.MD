@@ -47,6 +47,11 @@ Tensorflow 模型：
 | Mobilenet-SSD |	300*300 |	是 |	22.2 |	20 |
 | Resnet18-YOLOV3 |	416*736 |	是 |	45.5 |	22.97 |
 
+## ModelArts 远端算法 支持Ascend 310 推理
+
+https://console.huaweicloud.com/modelarts/?region=cn-north-4#/aiMarket/models/public?list_type=algo
+
+
 ## 可转换算法参考 
 
 | 算法 | 框架 | 功能 | 步骤 | 描述 | 网址 |
