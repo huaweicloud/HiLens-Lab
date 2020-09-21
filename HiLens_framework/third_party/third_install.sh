@@ -43,6 +43,7 @@ rm -rf glibc
 mkdir python-lib && cd python-lib
 rpm2cpio ../python3*.rpm| cpio -div
 cp -rf usr/lib64/libpython* ../lib
+cp -rf usr/include/python3.7m/pyconfig-64.h ../include/pyconfig.h
 cd ..
 rm -rf python-lib
 cd ..
