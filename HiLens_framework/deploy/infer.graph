@@ -1,0 +1,30 @@
+graphs {
+  graph_id: replace_graph_id
+  priority: 1
+  engines {
+    id: 1001
+    engine_name: "InferEngine"
+    side: DEVICE
+    thread_num: 1
+    so_name: "/home/hilens/skillframework/lib/infer_engine.so"
+    ai_config{
+        items{
+            name: "model_path"
+            value: "replace_graph_model"
+        }
+    }
+  }
+  engines {
+    id: 1002
+    engine_name: "DestEngine"
+    side: HOST
+    thread_num: 1
+    so_name: "/home/hilens/skillframework/lib/relay_engine.so"
+  }
+  connects {
+    src_engine_id: 1001
+    src_port_id: 0
+    target_engine_id: 1002
+    target_port_id: 0
+  }
+}

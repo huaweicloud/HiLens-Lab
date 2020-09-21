@@ -1,0 +1,35 @@
+graphs {
+  graph_id: replace_graph_id
+  priority: 1
+  engines {
+    id: 1000
+    engine_name: "SrcEngine"
+    side: HOST
+    thread_num: 1
+  }
+  engines {
+    id: 1003
+    engine_name: "DvppEngine"
+    side: DEVICE
+    thread_num: 1
+    so_name: "/home/hilens/skillframework/lib/infer_engine.so"
+  }
+  engines {
+    id: 1004
+    engine_name: "DestDvppEngine"
+    side: HOST
+    thread_num: 1
+  }
+  connects {
+    src_engine_id: 1000
+    src_port_id: 0
+    target_engine_id: 1003
+    target_port_id: 0
+  }
+  connects {
+    src_engine_id: 1003
+    src_port_id: 0
+    target_engine_id: 1004
+    target_port_id: 0
+  }
+}
